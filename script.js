@@ -65,3 +65,15 @@ class Garage{
     }
 
 }
+
+let two = 2;
+let three = 3;
+let name = "Diego";
+
+const cat = {
+    name: "Blue",
+    sum: two + three,
+    greet: function(){
+        console.log("miau my name is", this.name);
+    }
+}
